@@ -1,6 +1,9 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
+
+
+
 X = [1., 2., 3.]
 Y = [1., 2., 3.]
 m = n_samples = len(X)
@@ -29,3 +32,5 @@ plt.plot(W_val, cost_val, 'ro')
 plt.ylabel('Cost')
 plt.xlabel('W')
 plt.show()
+
+
